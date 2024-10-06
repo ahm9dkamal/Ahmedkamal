@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ahmed Kamal's CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+        }
+        .skills, .languages {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ahmed Kamal</h1>
+        <p><strong>Email:</strong> Ahm9dkamal@gmail.com</p>
+        <p><strong>Phone:</strong> +201010458180</p>
+        <p><strong>Location:</strong> Belbies, Ash Sharqia</p>
+        
+        <h2>Portfolio</h2>
+        <p><a href="https://www.behance.net/Ahm9dKamal">https://www.behance.net/Ahm9dKamal</a></p>
+
+        <h2>Education</h2>
+        <p>Faculty of Art, History Department, Zagazig University (2019)</p>
+
+        <h2>Experience</h2>
+        <ul>
+            <li>Graphic Designer at Rawabit Sport (8/2023 - Now)</li>
+            <li>Freelance Graphic Designer (4+ years)</li>
+        </ul>
+
+        <h2>Diploma</h2>
+        <p>Graphic Diploma from RCC (1/6/2022 - 7/9/2022)</p>
+
+        <h2>Languages</h2>
+        <div class="languages">
+            <span>Arabic (Native)</span>
+            <span>English (Good)</span>
+        </div>
+
+        <h2>Skills</h2>
+        <p>Skilled graphic designer, meticulous attention to detail, passionate about learning new techniques.</p>
+    </div>
+</body>
+</html>
